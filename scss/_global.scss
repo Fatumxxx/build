@@ -82,3 +82,20 @@ body{
         }
     }
 }
+.title {
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    @include f700;
+    color: #151515;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.header__title {
+    margin-top: 100px;
+    font-size: 48px;
+    line-height: 48px;
+    @include f700;
+    color: #000;
+    letter-spacing: 2px;
+}
